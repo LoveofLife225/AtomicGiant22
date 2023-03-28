@@ -1,0 +1,39 @@
+:root{
+ --fs-header: clamp(1.2rem, 4.75vw, 1.82rem);
+ --fs-main: clamp(1.1rem, 4vw, 1.38rem);
+ --clr-transparent-blue: rgba(0, 0, 255, 0.3);
+}
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: var(--fs-main);
+  background-image: url("atom.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header{
+  background-color: cyan;
+  text-align: center;
+  font-size: var(--fs-header);
+}
+
+.title{
+  display: inline-block;
+  color: gold;
+  text-shadow: 2px 2px blue;
+}
+
+article{
+  width: 70ch;
+  margin-inline: auto;
+}
+
+.heading{
+  text-align: center;
+  color: yellow;
+  background-color: var(--clr-transparent-blue);
+}
